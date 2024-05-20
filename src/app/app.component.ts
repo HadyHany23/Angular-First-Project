@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductItemComponent } from './product-item/product-item.component';
+import { LoginComponent } from './login/login.component';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
     SliderComponent,
     FooterComponent,
     ProductItemComponent,
+    LoginComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
